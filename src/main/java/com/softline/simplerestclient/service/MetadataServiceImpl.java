@@ -23,7 +23,7 @@ public class MetadataServiceImpl implements Metadata {
     @Override
     public void downloadLogs() {
         try {
-            String url = "https://omega-api-stage.softline.com/api/odata";
+            String url = "put url here";
 
             CloseableHttpClient httpClient = HttpClients.createDefault();
             HttpGet httpGet = new HttpGet(url);
